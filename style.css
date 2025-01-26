@@ -134,43 +134,45 @@ display: block;
     display: none;
 }
 @media  only screen and (max-width: 600px){
-    #header-nm{
+#header-nm{
         font-size: 10vmax;
-        margin-left: 31%;
+        margin-left: 33%;
     }
     #slogan{
         font-size: 2.5vmax;
-        margin-left: 35%;
+        margin-left: 36%;
     }
     #coshel-button, #coshel-input{
-        font-size: 1.5vmax;
-        margin-left: 1%;        
+        font-size: 2.5vmax;
+        margin-left: 4%;        
     }
     #coshel-button{
-        margin-left: 5.75vmax;
+        margin-left: 11vmax;
     }
     #servis{
         font-size: 0.85vmax;
+        margin-left: 6.5vmax;
     }
     #Coshel{
-        margin-left: 35%;
+        margin-left: 25.5%;
     }
     #btn-block{
         font-size: 5vmax;
         width: 50vmax;
-        margin-left: 27% ;
+        margin-left: 27.5% ;
     }
     .btn{
-        font-size: 1.25vmax;
-        
+        font-size: 1.6vmax;
+
     }
     #content-block{
         width: 33vmax;
-        margin-left: 23.5%;
+        margin-left: 25.5%;
         height: 43vmax;
         font-size: 2.2vmax;
     }
     #coshel-text1{
-    font-size:1.33vmax;
-}
+        font-size: 3.57vmax;
+        
+    }
 }
