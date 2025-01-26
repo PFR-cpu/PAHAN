@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Oswald-Bold.ttf');
+} 
+body {
+    background-image: url(pahan.jpg);
+    font-family: 'Poppins';
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#header-nm {
+    font-size: 5vmax;
+    color: rgb(253, 246, 192);
+    text-shadow: 0 0 1vmax rgba(0,0,0,0.7);
+    margin-left: 45%;
+    height: 1vmax;
+}
+header {
+    margin-left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#slogan {
+    display: flex;
+    margin-bottom: 2vmax; /* Adjusted margin-bottom to move closer */
+    font-size: 2vmax;
+    margin-left: 43%;
+}
+#phrase {
+    margin-left: 42%;
+    margin-top: 2vmax;
+}
+.important-text {
+    text-shadow: 0 0 1vmax rgb(253, 246, 192);
+    color: rgb(184, 179, 141);
+}
+#phrase-text{
+    margin-left: 3.5vmax;
+}
+#phrase-subtext {
+    display: flex;
+    flex-direction: row;
+}
+#Pahan{
+    margin-right: 3vmax;
+    background-color: #ffea00;
+    width: 6vmax;
+    padding: 0.2vmax;
+    padding-left: 0.4vmax;
+    height: 8vmax;
+    border: 0.4vmax solid rgb(174, 174, 6);
+    box-shadow: inset -1vmax -2vmax 0.5vmax rgb(234, 234, 8);
+    border-radius: 0 0 2vmax 2vmax;
+}
+#sherst{
+    margin-right: 3vmax;
+    background-color: #463601;
+    width: 6vmax;
+    padding: 0.2vmax;
+    padding-left: 0.4vmax;
+    height: 8vmax;
+    border: 0.4vmax solid rgb(59, 45, 0);
+    box-shadow: inset -1vmax -2vmax 0.5vmax rgb(76, 46, 0);
+    border-radius: 0 0 2vmax 2vmax;
+}
+#Coshel{
+    margin-left: 43.5%;
+}
+#coshel-text1{
+    margin-left: 2.9vmax;
+}
+#coshel-input{
+    background-color: rgb(253, 246, 192);
+    border-radius: 1vmax;
+    font-size: 1.2vmax;
+    
+}
+#coshel-button{
+    background-color: rgb(0, 0, 0);
+    border-radius: 1vmax;
+    font-size: 1.2vmax;
+    margin-left: 1vmax;
+    color: white;
+    font-family: 'Poppins';
+    margin-top: 0.4vmax;
+    margin-left: 4.5vmax;
+}
+#btn-block{
+    margin-top: 4.5vmax;
+    margin-left: 42%;
+}
+.btn{
+font-size: 1vmax;
+background-color:rgb(253, 246, 192); 
+border: 0.2vmax solid rgb(0, 0, 0);
+border-radius: 1vmax;
+color: rgb(0, 0, 0);
+font-family: 'Poppins';
+transition-duration:0.4s ;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(253, 246, 192);
+    transform: scale(1.15);
+    cursor: pointer;
+}
+#content-block{
+    margin-top: 1vmax;
+    margin-left: 42.2%;
+    background-color:rgb(253, 246, 192);
+    width: 15.5vmax;
+    padding: 1vmax;
+    height: 25vmax;
+    border: 0.2vmax solid black;
+    border-radius: 1vmax 1vmax 0 0;
+}
+#servis{
+    font-size: 0.6vmax;
+    color: gray;
+}
+#Idea{
+display: block;
+    
+}
+#Features{
+    display:none;
+}
+#Plans{
+    display: none;
+}
+@media  only screen and (max-width: 600px){
+    #header-nm{
+        font-size: 10vmax;
+        margin-left: 32%;
+    }
+    #slogan{
+        font-size: 2.5vmax;
+        margin-left: 35%;
+    }
+    #coshel-button, #coshel-input{
+        font-size: 1.5vmax;
+        margin-left: 4%;        
+    }
+    #coshel-button{
+        margin-left: 7vmax;
+    }
+    #servis{
+        font-size: 0.85vmax;
+    }
+    #Coshel{
+        margin-left: 35%;
+    }
+    #btn-block{
+        font-size: 5vmax;
+        width: 50vmax;
+        margin-left: 24% ;
+    }
+    .btn{
+        font-size: 2vmax;
+    }
+    #content-block{
+        width: 33vmax;
+        margin-left: 23.5%;
+        height: 43vmax;
+        font-size: 2.2vmax;
+    }
+}
