@@ -144,7 +144,7 @@ display: block;
     }
     #coshel-button, #coshel-input{
         font-size: 1.5vmax;
-        margin-left: 4%;        
+        margin-left: 1%;        
     }
     #coshel-button{
         margin-left: 7vmax;
@@ -171,6 +171,6 @@ display: block;
         font-size: 2.2vmax;
     }
     #coshel-text1{
-    font-size:1.2vmax;
+    font-size:1.33vmax;
 }
 }
