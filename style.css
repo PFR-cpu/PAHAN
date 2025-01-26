@@ -136,11 +136,11 @@ display: block;
 @media  only screen and (max-width: 600px){
     #header-nm{
         font-size: 10vmax;
-        margin-left: 30%;
+        margin-left: 31%;
     }
     #slogan{
         font-size: 2.5vmax;
-        margin-left: 34%;
+        margin-left: 35%;
     }
     #coshel-button, #coshel-input{
         font-size: 1.5vmax;
@@ -158,10 +158,11 @@ display: block;
     #btn-block{
         font-size: 5vmax;
         width: 50vmax;
-        margin-left: 24% ;
+        margin-left: 27% ;
     }
     .btn{
-        font-size: 1.2vmax;
+        font-size: 1.25vmax;
+        
     }
     #content-block{
         width: 33vmax;
@@ -170,6 +171,6 @@ display: block;
         font-size: 2.2vmax;
     }
     #coshel-text1{
-    font-size:1vmax;
+    font-size:1.2vmax;
 }
 }
