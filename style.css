@@ -140,14 +140,14 @@ display: block;
     }
     #slogan{
         font-size: 2.5vmax;
-        margin-left: 36%;
+        margin-left: 36.8%;
     }
     #coshel-button, #coshel-input{
         font-size: 2.5vmax;
         margin-left: 4%;        
     }
     #coshel-button{
-        margin-left: 11vmax;
+        margin-left: 9.8vmax;
     }
     #servis{
         font-size: 0.85vmax;
@@ -162,7 +162,7 @@ display: block;
         margin-left: 27.5% ;
     }
     .btn{
-        font-size: 1.6vmax;
+        font-size: 1.3vmax;
 
     }
     #content-block{
@@ -172,7 +172,7 @@ display: block;
         font-size: 2.2vmax;
     }
     #coshel-text1{
-        font-size: 3.57vmax;
+        font-size: 2.8vmax;
         
     }
 }
